@@ -6,18 +6,18 @@ Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden ger�
 4.film tablosunda bulunan tüm sütunlardaki verilerden title 'C' karakteri ile başlayan ve uzunluğu (length) 90 dan büyük olan ve rental_rate 2.99 olan verileri sıralayınız.
 
 CEVAPLAR
-1
+1.
 Select country from country
 where country like 'A%a';
 
-2
+2.
 Select country from country
 where country like '_____%n';
 
-3
+3.
 select title from film
 where title ilike '%T%T%T%T%';
 
-4
+4.
 select * from film 
 where title like 'C%' and length>90 and rental_rate=2.99;
