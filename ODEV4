@@ -7,20 +7,20 @@ Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden ger�
 5.city tablosundaki şehir isimlerinin kaç tanesi 'R' veya r karakteri ile biter?
 
 CEVAPLAR
-1
+1.
 select distinct(replacement_cost) from film;
 
-2
+2.
 select distinct(count(replacement_cost)) from film;
 
-3
+3.
 select count(title) from film 
 where title like 'T%' and rating='G';
 
-4
+4.
 select count(*) from country
 where country like '_____';
 
-5
+5.
 select count(*) from city
 where city ilike '%r';
